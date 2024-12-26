@@ -1,0 +1,70 @@
+
+
+.fieldset {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-section {
+    text-align: center;
+}
+
+.title-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+}
+.title-section h4{
+    margin: 0px;
+    padding-top: 5px;
+}
+.text-marquee{
+    padding: 10px 0;
+}
+.text-marquee marquee{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form {
+    background-image: url(bgimg.jpg);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=text],
+input[type=mail],
+input[type=phone],
+input[type=date],
+input[type=number],
+select {
+    width: 56%;
+    padding: 12px 20px;
+    margin: -4px 0;
+    display: inline-block;
+    border: 1px solid #080808;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+
+form table {
+    background-color: #60f16b5e;
+}
+
+
+
+#submission-section {
+    text-align: center;
+}
+
+#submission-section input {
+    font-size: 20px;
+    padding: 5px 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
